@@ -1,0 +1,7 @@
+<div>
+    <h2>Users Details</h2>
+    <span *ngFor="let l of Login">
+       <br/> <span>{{l.emailid}} </span><br/>
+        <input type="button" value="delete" (click)="deleteusers(l.emailid)"/>
+    </span>
+</div>

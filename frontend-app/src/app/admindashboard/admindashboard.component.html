@@ -1,0 +1,14 @@
+<div>
+    <h2>Welcome to home page admin {{user}}</h2>
+    <a routerLink="addProduct">Add products</a> |
+    <a routerLink="findAllProduct">view products</a> |
+    <a routerLink="viewusers">view users</a> |
+    <a routerLink="chngpswd">Change Password</a> |
+    <br/>
+    <hr/>
+        <router-outlet></router-outlet>
+    <hr/>
+  
+    <br/>
+    <input type="button" value="logout" (click)="logout()"/>
+</div>
